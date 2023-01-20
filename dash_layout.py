@@ -22,13 +22,13 @@ app.layout = html.Div(children=[
     )
 
     # Create dropdown
-    dcc.Dropdown(id='....', 
+    dcc.Dropdown(id='input-type', 
                    options=[
                            {'label': 'Yearly Airline Performance Reportearly Airline Performance Reportearly Airline Performance Reportearly Airline Performance Reportearly Airline Performance Report', 'value': 'OPT1'},
                            {'label': 'Yearly Airline Delay Report', 'value': 'OPT2'}
                            ],
-                  placeholder='....',
-                  style={....})
+                  placeholder='Select a report type',
+                  style={'width': '80%', 'padding': '3px', 'fontSize': '20px', 'text-align-last': 'center'})
     # Bar graph
 ])
 
